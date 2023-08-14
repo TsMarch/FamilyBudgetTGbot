@@ -25,9 +25,6 @@ def menu(message):
     markup.add(but2)
     bot.reply_to(message, "Чем могу помочь?", reply_markup = markup)
 
-def user_names(message):
-
-
 @bot.message_handler(func=lambda message: True)
 def handler(message):
     if message.text == 'Записать расходы':

@@ -70,9 +70,9 @@ def sum_print_detalisation():
         al_det = total - alex_det[0]
         yan_det = total - yana_det[0]
         if al_det<0:
-            return f'{mess}\n\nName2 надо доплатить Алексею {yan_det} рублей.'
+            return f'{mess}\n\nName2 надо доплатить Name1 {yan_det} рублей.'
         if yan_det<0:
-            return f'{mess}\n\nName1 надо доплатить Яне {al_det} рублей.'
+            return f'{mess}\n\nName1 надо доплатить Name2 {al_det} рублей.'
     except Exception as e:
         return "Что-то сломалось :("
 
